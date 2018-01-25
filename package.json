@@ -1,0 +1,29 @@
+{
+  "name": "jquery-rnd-fullbg",
+  "version": "0.0.0-development",
+  "description": "Plugin para cambiar el fondo aleatoriamente(Plugin to change the background image randomly)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcarrilloI/jquery-Rnd-FullBg.git"
+  },
+  "keywords": [
+    "background",
+    "jquery",
+    "unsplash",
+    "fullbackground",
+    "plugin"
+  ],
+  "author": "Hector Carrillo-Ibarra <hcarrilloibarra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hcarrilloI/jquery-Rnd-FullBg/issues"
+  },
+  "homepage": "https://github.com/hcarrilloI/jquery-Rnd-FullBg#readme",
+  "devDependencies": {
+    "eslint": "4.16.0"
+  }
+}
