@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "eslint src",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "test:watch":"mocha --watch",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
@@ -31,7 +33,8 @@
     "jsdom": "11.6.1",
     "mocha": "5.0.0",
     "nyc": "11.4.1",
-    "pre-commit": "1.2.2"
+    "pre-commit": "1.2.2",
+    "codecov": "3.0.0"
   },
   "pre-commit": [
     "test"
