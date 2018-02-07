@@ -13,7 +13,6 @@ describe('jquery-Rnd-FullBg', function() {
   beforeEach(function(){
     window.rndBgUnsplash.setup('123');
     $section = $('section');
-    $section.RndBgUnsplash();
   });
 
   it('should set client id attr', function(){
@@ -33,13 +32,13 @@ describe('jquery-Rnd-FullBg', function() {
   });
 
   it('should have default values', function(){
+    $section.RndBgUnsplash();
     expect($section.css('width')).to.be('100%');
     expect($section.css('minHeight')).to.be('800px');
     expect($section.css('backgroundSize')).to.be('cover');
     expect($section.css('backgroundPosition')).to.be('center');
     expect($section.css('backgroundColor')).to.be('black');
   });
-
   it('should set a random image from unsplash', function(){
     window.rndBgUnsplash.setup(CLIENT_ID);
     return $section.RndBgUnsplash({
@@ -54,8 +53,8 @@ describe('jquery-Rnd-FullBg', function() {
       });
 
   });
-  /* it('should set a default image', function(){
-    window.rndBgUnsplash.setup('123');
+
+  it('should set a default image', function(){
     return $section.RndBgUnsplash({
       backgroundImage: 'path/imagen.jpg'
     })
@@ -63,5 +62,6 @@ describe('jquery-Rnd-FullBg', function() {
         expect($this.css('backgroundImage')).to.contain('path/imagen.jpg');
       });
 
-  }); */
+  });
+
 });
