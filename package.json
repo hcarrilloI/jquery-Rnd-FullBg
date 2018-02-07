@@ -1,6 +1,6 @@
 {
   "name": "jquery-rnd-fullbg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin para cambiar el fondo aleatoriamente(Plugin to change the background image randomly)",
   "main": "src/index.js",
   "scripts": {
