@@ -1,6 +1,6 @@
 /**
  * jquery-Rnd-fullBg
- * @version 0.0.0-development
+ * @version 1.0.0
  * @author Edgar Zavala
  * @license MIT
  */
