@@ -15,7 +15,7 @@ npm install --save jquery-rnd-fullbg
 <script src="/node_modules/jquery-rnd-fullbg/src/index.js"></script>
 ```
 
-Before using the plugin you need to register as developer in Unsplash, then you must put the **CLIENT_ID** to be able to get photos from Unsplash API.
+Before using the plugin you need to register as developer in Unsplash, then you must set the **CLIENT_ID** to be able to get photos from Unsplash API.
 
 ```js
 window.rndBgUnsplash.setup(clientid);
@@ -25,6 +25,7 @@ window.rndBgUnsplash.setup(clientid);
 
 ```html
 <div id="bg-Rand"></div>
+```
 ```js
 $(document).ready(function(){
     window.rndBgUnsplash.setup(clientid);
